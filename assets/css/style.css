@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@500&family=Russo+One&display=swap');
 
 .nav-buttons{
-    margin-left:60%;
+    margin-left:50%;
 }
 
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
-
 }
 
 body{
@@ -254,6 +253,8 @@ footer h5{
 }
 footer li{
     padding-bottom: 4px;
+    text-decoration: none;
+
 }
 footer .li a:hover{
     color: #D8D8D8;
@@ -280,6 +281,11 @@ footer p{
 }
 footer .copyright img{
     width: 30%;
+}
+.logo{
+    width:40px;
+    /* padding-left: 10px; */
+    height:40px;
 }
 .navbar .brand{
     color:coral;
@@ -310,7 +316,6 @@ footer .copyright img{
     color: #fb774b;
     font-weight: bold;
 }
-
 /* Register page */
 #register-form{
     width: 50%;
